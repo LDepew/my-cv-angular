@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-cv';
-  name: string = "Lance Depew";
-  address: string = "3955 Oxford Millville rd.";
-  phone: string = "513-461-4282";
+  name: string = "Lance";
+  address: string = "2514 hartshore rd.";
+  phone: string = "555-515-2837";
   email: string = "bobvance@fridges.com";
 
   
