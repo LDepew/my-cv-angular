@@ -29,7 +29,8 @@ export class AppComponent {
     private usrsvc: UserService
   ) {
     this.usrsvc.list().subscribe(
-      users => { console.log(users); }
+      users => { console.log(users); },
+      err => { console.error(err); }
     );
   }
 }
