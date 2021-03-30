@@ -12,6 +12,10 @@ export class AppComponent {
   phone: string = "555-515-2837";
   email: string = "bobvance@fridges.com";
 
+  blueButtonStyle: string = "btn btn-primary";
+  redButtonStyle: string = "btn btn-danger";
+  buttonStyle: string = this.blueButtonStyle;
+
   
   showPersonal = null;
   

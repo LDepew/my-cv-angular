@@ -1,5 +1,5 @@
 <div>
-  <button {click} = "togglePersonal()">Toggle Personal Info</button>
+  <button [ngClass] = "buttonStyle" {click} = "togglePersonal()">Toggle Personal Info</button>
   <h1>My CV</h1>
 
   <div *ngIf = "showPersonal" >
