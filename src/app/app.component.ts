@@ -13,7 +13,12 @@ export class AppComponent {
   email: string = "bobvance@fridges.com";
 
   
+  showPersonal = null;
+  
 
+  togglePersonal(): void{
+    this.showPersonal = true;
+  }
   
 }
 

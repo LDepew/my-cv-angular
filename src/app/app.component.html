@@ -1,8 +1,12 @@
 <div>
+  <button {click} = "togglePersonal()">Toggle Personal Info</button>
   <h1>My CV</h1>
+
+  <div *ngIf = "showPersonal" >
   <h3>Personal</h3>
   <address>{{name}} | {{address}} | {{phone}} | {{email}}</address>
-  
+  </div>
+
   <app-education></app-education>
   
   <app-work-history></app-work-history>

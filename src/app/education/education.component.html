@@ -1,5 +1,4 @@
 <h3>Education</h3>
   <ul>
-    <li>{{schools[0].name}} | {{schools[0].accomplishment}} | {{schools[0].years}}</li>
-    <li>{{schools[1].name}} | {{schools[1].accomplishment}} | {{schools[1].years}}</li>
+    <li *ngFor = "let s of schools">{{s.name}} | {{s.accomplishment}} | {{s.years}}</li>
   </ul>
