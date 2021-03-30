@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UserService } from './user.service';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +25,13 @@ export class AppComponent {
     this.showPersonal = true;
   }
   
+  constructor(
+    private usrsvc: UserService
+  ) {
+    this.usrsvc.list().subscribe(
+      users => { console.log(users); }
+    );
+  }
 }
 
 
