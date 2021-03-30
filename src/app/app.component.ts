@@ -14,7 +14,7 @@ export class AppComponent {
 
   blueButtonStyle: string = "btn btn-primary";
   redButtonStyle: string = "btn btn-danger";
-  buttonStyle: string = this.blueButtonStyle;
+  buttonStyle: string = this.redButtonStyle;
 
   
   showPersonal = null;
