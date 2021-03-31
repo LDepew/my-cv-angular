@@ -10,7 +10,7 @@ export class WorkHistoryComponent implements OnInit {
     {
       company: "Courtyard By Marriott",
       location: "Hamilton, OH",
-      role: "Assistant Lead Line Cook:"
+      role: "Assistant Lead Line Cook:",
       duration: "2018 - 2021",
       accomplishments: [
         "Made a lot of food",
